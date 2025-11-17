@@ -96,7 +96,7 @@ nav a {
   text-align: center;
   padding-block: 2em;
 }
-.gallery nav {
+.gallery .nav {
   justify-content: center;
 }
 .nav-pills .nav-link.active,
@@ -107,6 +107,9 @@ nav a {
 }
 .nav-pills .nav-link {
   color: #000;
+}
+.nav-link:hover {
+  cursor: pointer;
 }
 .item-column {
   position: relative;
