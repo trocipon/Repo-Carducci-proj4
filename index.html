@@ -74,6 +74,7 @@
             <img
               src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
               class="d-block w-100"
+              fetchpriority="high"
               alt="Travailleur en costume noir traversant un passage piéton, vu de dos"
             />
           </div>
@@ -81,6 +82,7 @@
             <img
               src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
               class="d-block w-100"
+              loading="lazy"
               alt="Une foule de personnes enthousiastes lors d'un concert, les bras levés"
             />
           </div>
@@ -88,6 +90,7 @@
             <img
               src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
               class="d-block w-100"
+              loading="lazy"
               alt="Un couple en tenue de mariage danse et s'embrasse au milieu d'une haie d'invités"
             />
           </div>
@@ -113,7 +116,7 @@
       </section>
       <section id="about">
         <div class="picture left">
-          <img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci" />
+          <img src="./assets/images/nina.webp" loading="lazy" alt="Portrait de Nina Carducci" />
         </div>
         <div id="about-me">
           <h2 class="about-me__title">A propos de moi</h2>
@@ -143,54 +146,63 @@
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
               alt="Une foule animée devant un scène musicale, avec des jeux de lumières orangées"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
               alt="Vue de portrait d'un homme en costume noir, les bras croisés, dans un environnement citadin"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
               alt="Une femme souriante assise dans un bureau lumineux, entourée de collègues"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
               alt="Deux paires de mains tendues l'une vers l'autre, en extérieur"
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
               alt="Portrait d'un homme en t-shirt, les yeux fermés, en extérieur"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
               alt="Un couple de mariés au regard complice, se tenant par la main devant un palmier"
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
               alt="Portrait d'une jeune femme avec des lunettes, devant un grillage, en extérieur"
             />
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
               alt="Un chanteur, main levée sur scène, avec des jeux de fumées et de lumières en arrière-plan"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
+              loading="lazy"
               src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
               alt="Une femme souriante travaillant avec un ordinateur portable, dans un bureau lumineux"
             />
@@ -281,7 +293,8 @@
                     <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
                     <span itemprop="postalCode">33200</span>
                     <span itemprop="addressLocality">Bordeaux</span><br>
-                    <span itemprop="addressRegion">Nouvelle-Aquitaine</span>
+                    <span itemprop="addressRegion">Nouvelle-Aquitaine</span>, 
+                    <span itemprop="addressCountry">France</span>
                   </div><br>
                   Ouvert du lundi au vendredi, de 10h à 19h.<br>
                   Contactez-moi par téléphone au <span itemprop="telephone"><strong>05 56 67 78 89</strong></span>.                  
@@ -310,7 +323,7 @@
             </form>
           </div>
           <div class="picture right">
-            <img src="./assets/images/camera.webp" alt="Un appareil photo Leica vintage en gros plan avec une lumière chaude" />
+            <img src="./assets/images/camera.webp" loading="low" alt="Un appareil photo Leica vintage en gros plan avec une lumière chaude" />
           </div>
         </div>
       </section>
