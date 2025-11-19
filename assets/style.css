@@ -131,7 +131,8 @@ nav a {
 .nav-pills .nav-link {
   color: #000;
 }
-.nav-link:hover {
+.nav-link:hover,
+.gallery-item {
   cursor: pointer;
 }
 .item-column {
