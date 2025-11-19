@@ -103,13 +103,13 @@ nav a {
 .about-me__title {
   margin-top: 1em;
   margin-bottom: 60px;
-  font-size: 30px;
 }
 .about-me__introduction {
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 1rem;
 }
 #about-me p {
   width: 80%;
@@ -173,6 +173,7 @@ nav a {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
   font-family: Spectral;
